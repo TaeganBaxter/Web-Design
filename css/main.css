@@ -1,0 +1,234 @@
+      /* Header for home page */
+
+.header {
+    padding: 120px; 
+    text-align: left;
+    background: #007DBA; 
+    color: white; 
+  }
+ 
+  .header div,phone{
+    position: relative;
+    float: right;
+    margin-top: -130px;
+    margin-right: -50px;
+  }
+      /* Header and nav bar for profile pages 1 and 2 */
+
+  .header2 {
+    padding: 150px; 
+    text-align: center; 
+    background: #007DBA; 
+    color: white; 
+  }
+  .header2 div,bar1 {
+   align-content: center;
+   margin-top: -130px; 
+   position: relative;
+  
+    }
+      /* Header and nav bar for verification page 2 */
+    .header3 {
+      padding: 180px; 
+      text-align: center; 
+      background: #007DBA; 
+      color: white; 
+    }
+
+   .header3 div,navbar2 {
+      align-content: center;
+      margin-top: -320px; 
+      position: relative;
+    }
+
+    
+    /* Header and nav bar for membership page */
+     
+  
+    .header4 {
+      padding: 200px; 
+      text-align: left;
+      background: #007DBA; 
+      color: white; 
+    }
+    .header4 div.bar3 {
+      align-content: center;
+      margin-top: -180px;  
+      position: relative;
+  
+    }
+
+    .header4 div,phone{
+    position: relative;
+    float: right;
+    margin-top: -50px;
+    margin-right: 260px;
+  }
+
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 40px;
+    
+  }
+
+  .header p {
+    font-size: 30px;
+  }
+  
+  body {
+	font-family: "Lato", sans-serif;
+}
+  /* Style the top navigation bar */
+.navbar {
+    overflow: hidden; 
+    background-color: #004067; 
+    padding: 10px;
+    position: sticky;
+    
+  }
+      
+/* Positioning logo */
+
+.navbar div.logo {
+  float: left;
+  margin-top: -20px;
+  margin-left: 10px;
+  position: absolute 
+
+  }
+  
+
+  @media screen and (max-width: 400px) { /* making the layout responsive when the screen is less than 400px */ 
+    .navbar a {
+      float: none;
+      width: 100%;
+      
+    }
+  } 
+    /* Styling the navigation bar links */
+.navbar a { 
+    float: right; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 30px; 
+    text-decoration: none; 
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+    background-color: white;
+    color: #004067
+
+
+
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+  
+  /* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+  }
+
+  /* Home page "content" */
+   .column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    margin-left: 100px;
+  }
+
+  .column,ul {
+    list-style: none;
+    line-height: 40px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+  /*Making the layout responsive when the screen is less than 600px the columns stack on top of each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  /* making the layout responsive when the screen is less than 400px */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+/* Styling the next button for each page */
+
+  .next {
+    background-color: #81C9EC;
+    border: none;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 570px;
+    border-radius: 12px;
+  }
+ 
+  /* Styling the next inputs for each page */
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form * {
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=text], select {
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 180px;
+    width: 250px;
+  }
+  
+  input[type=date], select {
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 180px;
+    width: 250px;
+  }
+  
+
+ h1,p {
+   text-align: center;
+   padding-top: 20px;
+
+ }
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- Meta tags -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="designer" content="Rob Dongas">
+  
+   <!-- Main CSS file -->
+   <link rel="stylesheet" href="css/main.css" />
+    <!-- Main jS file -->
+   <script src="myscripts.js"></script>
+    <!-- js maps file -->
+   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe9K-2fYjACm0O015VEOLh5GM84YYkO-g&libraries=places"></script>
+   
+   
+   <!-- Title -->
+   <title>ANZ SignUp</title>
+</head>
+
+
+
+<body>
+  
+     
+
+ <div class="navbar">
+      <div class="logo">
+            <img src="./img/ANZ_white_logo.png" alt="ANZ_white_logo" width="110px" height="80px">
+         </div>
+  <a href="#">About</a>
+  <a href="#">Features</a>
+  <a href="#">Support</a>
+  
+  
+</div>
+
+   <div class="header2">
+
+      <div class="navbar2">
+            <img src="./img/verifybar.png" alt="Progress"width="550px" height="65px">
+         </div>
+      <form action="/action_page.php">
+         <label for="address"><h1>What is your address?</h1></label>
+         <input type="text" id="autocomplete" name="address" placeholder="Start typing your address here">
+      </form>
+      </div>
+    </div>
+    
+    <!--Google places auto complete js-->
+    <script>
+      var input = document.getElementById('autocomplete');
+      var autocomplete = new google.maps.places.Autocomplete(input);
+    </script>
+    <a href="5. Verify2.html" class="next">Next</a>
+    
+</body>
+
+</html>
