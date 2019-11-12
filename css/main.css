@@ -178,7 +178,6 @@
   }
 
 /* Styling the next button for each page */
-
   .next {
     background-color: #81C9EC;
     border: none;
@@ -195,6 +194,7 @@
     border-radius: 12px;
   }
 
+/* Styling the Back button for each page */
   .back {
     color: white;
     text-decoration: none;
@@ -224,7 +224,7 @@
     box-sizing: border-box;
   }
   
-  
+  /* Styling the inputs for text */
   input[type=text], select {
     padding: 12px 20px;
     display: block;
@@ -234,7 +234,8 @@
     margin-left: 180px;
     width: 250px;
   }
-  
+
+    /* Styling the date picker inputs */
   input[type=date], select {
     padding: 12px 20px;
     display: block;
@@ -245,6 +246,7 @@
     width: 250px;
   }
   
+/* Aligning the main text for the landing page and membership page */
 
  h1,p {
    text-align: center;
