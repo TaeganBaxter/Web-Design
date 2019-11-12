@@ -37,7 +37,7 @@
 
    .header3 div,navbar2 {
       align-content: center;
-      margin-top: -320px; 
+      margin-top: -380px; 
       position: relative;
     }
 
@@ -113,14 +113,16 @@
     text-align: center; 
     padding: 14px 30px; 
     text-decoration: none; 
+    border-radius: 5px;
+
   }
   
   /* Right-aligned link */
   .navbar a.right {
     float: right; /* Float a link to the right */
     background-color: white;
-    color: #004067
-
+    color: #004067;
+    border-radius: 5px;
 
 
   }
@@ -191,6 +193,24 @@
     font-size: 20px;
     margin: 20px 570px;
     border-radius: 12px;
+  }
+
+  .back {
+    color: white;
+    text-decoration: none;
+   /padding: 8px 16px;
+    background-color: #BCC6CC;
+    font-size: 20px;
+    display: inline-block;
+    margin: -5px 570px;
+    border-radius: 12px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+
   }
  
   /* Styling the next inputs for each page */
